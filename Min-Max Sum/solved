@@ -1,0 +1,25 @@
+function miniMaxSum(arr) {
+    let aux=0;
+    let max=0;
+    let min=0;
+    let soma=0;
+    let total=0;
+    
+    for(let i=0;i<arr.length;i++){
+        total +=arr[i];
+    }
+        
+        min=total;
+        
+    for(let i=0;i<arr.length;i++){
+        soma= total - arr[i];
+        
+        if (soma>max){
+            max =soma;
+        }
+        if (soma<min){
+            min=soma;
+        }
+    }
+    console.log(min, max);
+}
