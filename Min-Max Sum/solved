@@ -1,6 +1,5 @@
 function miniMaxSum(arr) {
     
-    let aux=0;
     let max=0;
     let min=0;
     let soma=0;

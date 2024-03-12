@@ -1,5 +1,4 @@
 function birthdayCakeCandles(candles) {
-    // Write your code here
      
     let aux= [];
     let count=0;
