@@ -1,0 +1,27 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    border: 1px solid #5c5c5c;
+    border-collapse: collapse;
+    /* padding: 1px; */
+    width: auto;
+}
+
+td,tr,th{
+    border: 1px solid #5c5c5c;
+    padding: 6px;
+}
+
+.destaque{
+    font-weight: bold;
+    padding: 7px;
+}
+
+.vermelho{
+    color:#f32b2b;
+}
+
+.azul{
+    color: #4d4dff;
+}
