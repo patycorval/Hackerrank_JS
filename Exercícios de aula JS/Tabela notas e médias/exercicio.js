@@ -80,7 +80,7 @@ function tabelaAlunos(listaAlunos){
  }
 
     acumulado = acumulado + "<tr>"
-                        + "<td colspan=1 class='destaque'> Média P1 da turma: </td>"
+                        + "<td colspan=1 class='destaque'> Média P1 da turma: </td>" 
                         + "<td class='mediaT'>" + mediaP1.toFixed(2) + "</td>"
                         + "<td colspan=2  class='destaque'> Média P2 da turma: </td>"
                         + "<td class='mediaT'>" + mediaP2.toFixed(2) + "</td> </tr>"
@@ -96,7 +96,7 @@ function tabelaAlunos(listaAlunos){
      let cor= document.querySelectorAll('td.notap1, td.notap2, td.media,td.mediaT')
     
      for (let i=0; i<cor.length;i++){
-        if (parseInt(cor[i].innerText, 10) <6 ){
+        if (parseInt(cor[i].innerText, 10) <6 ){ //passei para inteiro de base 10, que é a normal e se isso for menor que 6 realizo isso
             cor[i].classList.add("vermelho");
         }
         else{
